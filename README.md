@@ -22,11 +22,33 @@ Welcome to the C++ Code Snippets Extension for Visual Studio Code! This extensio
 
 ## Supported Snippets
 
-| Snippet Name         | Description                              |
-|----------------------|------------------------------------------|
-| `/cpw`               | Description of the first snippet goes here. |
-| `snippet2`           | Description of the second snippet goes here. |
-| `snippet3`           | Description of the third snippet goes here. |
-| ...                  | ...                                      |
+| Snippet Name    | Description                              |
+|-----------------|------------------------------------------|
+| `/cpw`          | Basic snippet without testcase            |
+| `/cpt`          | Basic snippet with testcase               |
+| `/for`          | 'for' loop                               |
+| `/forr`         | 'for' loop reverse                       |
+| `/n`            | Declare and input n                      |
+| `/in1`          | Declare and input one variable           |
+| `/in2`          | Declare and input two variables          |
+| `/in3`          | Declare and input three variables        |
+| `/nl`           | New line                                  |
+| `/outs`         | Cout one with space                       |
+| `/out1`         | Cout one                                  |
+| `/out2`         | Cout two                                  |
+| `/vector`       | Vector Input                              |
+| `/pair`         | Pair                                      |
+| `/if`           | If                                        |
+| `/elif`         | Else if                                   |
+| `/else`         | Else                                      |
+| `/singly`       | Singly linked list                        |
+| `/doubly`       | Doubly linked list                        |
+| `/tree`         | Binary Tree                               |
+| `.pb`           | push_back(x);                             |
+| `.pop`          | pop_back();                               |
+| `.sz`           | size()                                    |
+| `.fi`           | first                                     |
+| `.se`           | second                                    |
+| `.ins`          | insert(x);                                |
 
 **Enjoy!**

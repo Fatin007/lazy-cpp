@@ -16,7 +16,7 @@
 			"\tsolve();\r",
 			"}"
       ],
-      "description": "CPP snippet without testcase"
+      "description": "Basic snippet without testcase"
     },
     "With Testcase": {
 		"prefix": "/cpt",
@@ -37,7 +37,7 @@
 			"\twhile(tc--) solve();\r",
 			"}"
 		],
-		"description": "CPP snippet with testcase"
+		"description": "Basic snippet with testcase"
 	},
     "for": {
 		"prefix": "/for",
@@ -62,49 +62,56 @@
 		"body": [
 			"int n; cin>>n;\r$0"
 		],
-		"description": "'Input one"
+		"description": "Declare and input n"
 	},
     "in1": {
 		"prefix": "/in1",
 		"body": [
 			"${1:int} ${2:x}; cin>>${2:x};\r$0"
 		],
-		"description": "'Input one"
+		"description": "Declare and input one variable"
 	},
     "in2": {
 		"prefix": "/in2",
 		"body": [
 			"${1:int} ${2:x},${3:y}; cin>>${2:x}>>${3:y};\r$0"
 		],
-		"description": "'Input two"
+		"description": "Declare and input two variable"
 	},
     "in3": {
 		"prefix": "/in3",
 		"body": [
 			"${1:int} ${2:x},${3:y},${4:z}; cin>>${2:x}>>${3:y}>>${4:z};\r$0"
 		],
-		"description": "'Input three"
+		"description": "Declare and input three variable"
+	},
+    "nl": {
+		"prefix": "/nl",
+		"body": [
+			"cout<<endl;$0"
+		],
+		"description": "New line"
 	},
     "outs": {
 		"prefix": "/outs",
 		"body": [
 			"cout<<${1:x}<<\" \";$0"
 		],
-		"description": "'out one"
+		"description": "Cout one with space"
 	},
     "out1": {
 		"prefix": "/out1",
 		"body": [
 			"cout<<${1:x}<<endl;$0"
 		],
-		"description": "'out one"
+		"description": "Cout one"
 	},
     "out2": {
 		"prefix": "/out2",
 		"body": [
 			"cout<<<<\" \"<<${2:y}<<endl;$0"
 		],
-		"description": "'out two"
+		"description": "Cout two"
 	},
     "vector": {
 		"prefix": "/vector",
