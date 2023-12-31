@@ -16,7 +16,7 @@ Welcome to the C++ Code Snippets Extension for Visual Studio Code! This extensio
 
 ## Usage
 
-1. Open a `.cpp` or `.h` file in Visual Studio Code.
+1. Open a `.cpp` file in Visual Studio Code.
 2. Type the snippet prefix defined in the extension's snippets.
 3. Select the desired snippet from the IntelliSense dropdown or press `Tab` to insert it.
 
