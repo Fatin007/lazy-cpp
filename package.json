@@ -4,7 +4,11 @@
   "publisher": "Fatin007",
   "description": "",
   "version": "0.0.1",
-  "icon": "./images/logo.jpeg",
+  "icon": "https://github.com/Fatin007/lazy-cpp/blob/master/images/logo.jpeg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fatin007/lazy-cpp"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
