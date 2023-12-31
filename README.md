@@ -1,6 +1,6 @@
 # lazy-cpp README
 
-Welcome to the C++ Code Snippets Extension for Visual Studio Code! This extension provides a collection of useful C++ code snippets to improve your coding productivity. This might be useful for lazy people like me!!
+Welcome to the Lazy_CPP Extension for Visual Studio Code! This extension provides a collection of useful C++ code snippets to improve your coding productivity. This might be useful for lazy people like me!!
 
 ## Features
 
