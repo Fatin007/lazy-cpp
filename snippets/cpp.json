@@ -1,0 +1,245 @@
+{
+    "Without Testcase": {
+      "prefix": "/cpw",
+      "body": [
+        "#include <bits/stdc++.h>\r",
+			"#define ll long long\r",
+			"#define endl \"\\n\"\r",			
+			"using namespace std;\r",
+			"\r",
+			"void solve(){",
+			"\t$0",
+			"}\r",
+			"\r",
+			"int main(){\r",
+			"\tios_base::sync_with_stdio(false); cin.tie(NULL);\r",
+			"\tsolve();\r",
+			"}"
+      ],
+      "description": "CPP snippet without testcase"
+    },
+    "With Testcase": {
+		"prefix": "/cpt",
+		"body": [
+			"#include <bits/stdc++.h>\r",
+			"#define ll long long\r",
+			"#define endl \"\\n\"\r",			
+			"using namespace std;\r",
+			"\r",
+			"void solve(){",
+			"\t$0",
+			"}\r",
+			"\r",
+			"int main(){\r",
+			"\tios_base::sync_with_stdio(false); cin.tie(NULL);\r",
+			"\tll tc=1;\r",
+			"\tcin>>tc;\r",
+			"\twhile(tc--) solve();\r",
+			"}"
+		],
+		"description": "CPP snippet with testcase"
+	},
+    "for": {
+		"prefix": "/for",
+		"body": [
+			"for(int ${1:i}=${2:0};${1:i}<${3:n};${1:i}++){",
+			"\t$0",
+			"}"
+		],
+		"description": "'for' loop"
+	},
+    "forr": {
+		"prefix": "/forr",
+		"body": [
+			"for(int ${1:i}=${2:n}-1;${1:i}>=${3:0};${1:i}--){",
+			"\t$0",
+			"}"
+		],
+		"description": "'for' loop reverse"
+	},
+    "n": {
+		"prefix": "/n",
+		"body": [
+			"int n; cin>>n;\r$0"
+		],
+		"description": "'Input one"
+	},
+    "in1": {
+		"prefix": "/in1",
+		"body": [
+			"${1:int} ${2:x}; cin>>${2:x};\r$0"
+		],
+		"description": "'Input one"
+	},
+    "in2": {
+		"prefix": "/in2",
+		"body": [
+			"${1:int} ${2:x},${3:y}; cin>>${2:x}>>${3:y};\r$0"
+		],
+		"description": "'Input two"
+	},
+    "in3": {
+		"prefix": "/in3",
+		"body": [
+			"${1:int} ${2:x},${3:y},${4:z}; cin>>${2:x}>>${3:y}>>${4:z};\r$0"
+		],
+		"description": "'Input three"
+	},
+    "outs": {
+		"prefix": "/outs",
+		"body": [
+			"cout<<${1:x}<<\" \";$0"
+		],
+		"description": "'out one"
+	},
+    "out1": {
+		"prefix": "/out1",
+		"body": [
+			"cout<<${1:x}<<endl;$0"
+		],
+		"description": "'out one"
+	},
+    "out2": {
+		"prefix": "/out2",
+		"body": [
+			"cout<<<<\" \"<<${2:y}<<endl;$0"
+		],
+		"description": "'out two"
+	},
+    "vector": {
+		"prefix": "/vector",
+		"body": [
+			"vector<${1:ll}>v(n);",
+            "for(int i=0;i<n;i++){",
+			"\tcin>>v[i];$0",
+			"}"
+		],
+		"description": "Vector Input"
+	},
+    "pair": {
+		"prefix": "/pair",
+		"body": [
+			"pair<${1:ll},${2:ll}>v(n);"
+		],
+		"description": "Pair"
+	},
+    "if": {
+		"prefix": "/if",
+		"body": [
+			"if($1){",
+			"\t$0",
+			"}"
+		],
+		"description": "If"
+	},
+    "elif": {
+		"prefix": "/elif",
+		"body": [
+			"else if($1){",
+			"\t$0",
+			"}"
+		],
+		"description": "Else if"
+	},
+    "else": {
+		"prefix": "/else",
+		"body": [
+			"else{",
+			"\t$0",
+			"}"
+		],
+		"description": "Else"
+	},
+    "singly": {
+		"prefix": "/singly",
+		"body": [
+			"class Node{\r",
+			"   public:\r",
+			"      int val;\r",
+			"      Node *next;\r",
+			"   Node(int val){\r",
+			"      this->val=val;\r",
+			"      this->next=NULL;\r",
+			"   }\r",
+			"};"
+		],
+		"description": "Singly linked list"
+	},
+    "doubly": {
+		"prefix": "/doubly",
+		"body": [
+			"class Node{\r",
+			"   public:\r",
+			"      int val;\r",
+			"      Node *next;\r",
+			"      Node *prev;\r",
+			"   Node(int val){\r",
+			"      this->val=val;\r",
+			"      this->next=NULL;\r",
+			"      this->prev=NULL;\r",
+			"   }\r",
+			"};"
+		],
+		"description": "Doubly linked list"
+	},
+    "tree": {
+		"prefix": "/tree",
+		"body": [
+			"class Node{\r",
+			"   public:\r",
+			"      int val;\r",
+			"      Node *right;\r",
+			"      Node *left;\r",
+			"   Node(int val){\r",
+			"      this->val=val;\r",
+			"      this->right=NULL;\r",
+			"      this->left=NULL;\r",
+			"   }\r",
+			"};"
+		],
+		"description": "Binary Tree"
+	},
+    "pb": {
+		"prefix": ".pb",
+		"body": [
+			"push_back(${1:x});$0"
+		],
+		"description": "push_back(x);"
+	},
+    "pop": {
+		"prefix": ".pop",
+		"body": [
+			"pop_back();$0"
+		],
+		"description": "pop_back();"
+	},
+    "sz": {
+		"prefix": ".sz",
+		"body": [
+			"size()$0"
+		],
+		"description": "size()"
+	},
+    "fi": {
+		"prefix": ".fi",
+		"body": [
+			"first$0"
+		],
+		"description": "first"
+	},
+    "se": {
+		"prefix": ".se",
+		"body": [
+			"second$0"
+		],
+		"description": "second"
+	},
+    "ins": {
+		"prefix": ".ins",
+		"body": [
+			"insert(${1:x});$0"
+		],
+		"description": "insert(x);"
+	}
+}
+  
