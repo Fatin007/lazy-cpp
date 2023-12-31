@@ -1,6 +1,6 @@
 # lazy-cpp README
 
-![Extension Logo](https://github.com/Fatin007/lazy-cpp/blob/master/images/logo.jpeg)
+![Extension Logo](./images/logo.jpeg)
 
 Welcome to the Lazy_CPP Extension for Visual Studio Code! This extension provides a collection of useful C++ code snippets to improve your coding productivity. This might be useful for lazy people like me!!
 
