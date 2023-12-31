@@ -18,7 +18,7 @@ Welcome to the Lazy_CPP Extension for Visual Studio Code! This extension provide
 
 1. Open a `.cpp` file in Visual Studio Code.
 2. Type the snippet prefix defined in the extension's snippets.
-3. Select the desired snippet from the IntelliSense dropdown or press `Tab` to insert it.
+3. Select the desired snippet from the IntelliSense dropdown or press `Tab` or press `Enter` to insert it.
 
 ## Supported Snippets
 
