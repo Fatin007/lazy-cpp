@@ -4,6 +4,7 @@
   "publisher": "Fatin007",
   "description": "",
   "version": "0.0.1",
+  "icon": "./images/logo.jpeg",
   "engines": {
     "vscode": "^1.85.0"
   },
