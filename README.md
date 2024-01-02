@@ -24,6 +24,7 @@ Welcome to the Lazy_CPP Extension for Visual Studio Code! This extension provide
 
 | Snippet Name    | Description                              |
 |-----------------|------------------------------------------|
+| `/simple`       | Simple Boilerplate                       |
 | `/cpw`          | Basic snippet without testcase            |
 | `/cpt`          | Basic snippet with testcase               |
 | `/for`          | 'for' loop                               |
