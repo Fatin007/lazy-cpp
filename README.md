@@ -48,14 +48,16 @@ Welcome to the Lazy_CPP Extension for Visual Studio Code! This extension provide
 | 24         | singly linked list node            | `/singly` |
 | 25         | doubly linked list node            | `/doubly` |
 | 26         | tree node                          | `/tree` |
-| 27         | begin()                            | `.be` |
-| 28         | end()                              | `.end` |
+| 27         | .begin()                            | `.be` |
+| 28         | .end()                              | `.end` |
 | 29         | v.begin(),v.end()                  | `/all` |
-| 30         | push_back(x);                      | `.pb` |
-| 31         | pop_back();                        | `.pop` |
+| 30         | .push_back(x);                      | `.pb` |
+| 31         | .pop_back();                        | `.pop` |
 | 32         | .size()                            | `.sz` |
-| 33         | first                              | `.fi` |
-| 34         | second                             | `.se` |
-| 35         | insert(x);                         | `.in` |
+| 33         | .first                              | `.fi` |
+| 34         | .second                             | `.se` |
+| 35         | .insert(x);                         | `.in` |
+| 36         | sort vector                        | `/sort` |
+| 37         | sort vector (descending)           | `/sorttt`|
 
 **Enjoy!**

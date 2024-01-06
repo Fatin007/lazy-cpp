@@ -318,5 +318,19 @@
 			".insert(${1:x});$0"
 		],
 		"description": "insert(x);"
+	},
+	"sort vector": {
+		"prefix": "/sort",
+		"body": [
+			"sort(${1:v}.begin(),${1:v}.end());$0"
+		],
+		"description": "sort vector"
+	},
+	"sort vector (descending)": {
+		"prefix": "/sorttt",
+		"body": [
+			"sort(${1:v}.begin(),${1:v}.end(),greater<int>());$0"
+		],
+		"description": "sort vector (descending)"
 	}
 }
