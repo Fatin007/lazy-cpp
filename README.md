@@ -59,5 +59,6 @@ Welcome to the Lazy_CPP Extension for Visual Studio Code! This extension provide
 | 35         | .insert(x);                         | `.in` |
 | 36         | sort vector                        | `/sort` |
 | 37         | sort vector (descending)           | `/sorttt`|
+| 38         | class name(){};                    | `/class` |
 
 **Enjoy!**

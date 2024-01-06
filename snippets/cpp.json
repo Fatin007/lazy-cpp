@@ -332,5 +332,14 @@
 			"sort(${1:v}.begin(),${1:v}.end(),greater<int>());$0"
 		],
 		"description": "sort vector (descending)"
+	},
+	"class name(){}": {
+		"prefix": "/class",
+		"body": [
+			"class ${1:name}{\r",
+			"\t$0\r",
+			"};"
+		],
+		"description": "Snippet for class"
 	}
 }
