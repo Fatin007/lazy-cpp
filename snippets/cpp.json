@@ -138,7 +138,7 @@
 	"cout 2 variable": {
 		"prefix": "/out2",
 		"body": [
-			"cout<<<<\" \"<<${2:y}<<endl;$0"
+			"cout<<${1:x}<<\" \"<<${2:y}<<endl;$0"
 		],
 		"description": "cout 2 variable"
 	},
