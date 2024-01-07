@@ -3,7 +3,7 @@
   "displayName": "Lazy CPP",
   "publisher": "Fatin007",
   "description": "C++ code snippets for lazy people...",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "icon": "./images/logo.jpeg",
   "repository": {
     "type": "git",
