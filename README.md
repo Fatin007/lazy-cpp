@@ -20,6 +20,8 @@ Welcome to the Lazy_CPP Extension for Visual Studio Code! This extension provide
 2. Type the snippet prefix defined in the extension's snippets.
 3. Select the desired snippet from the IntelliSense dropdown or press `Tab` or press `Enter` to insert it.
 
+## Snippets list
+
 | Serial No. | Snippet Name                        | Prefix |
 |------------|------------------------------------|--------|
 | 1          | Simple Boilerplate                  | `/simple` |
