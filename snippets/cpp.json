@@ -176,7 +176,7 @@
 	"set (change data type and name)": {
 		"prefix": "/set",
 		"body": [
-			"vector<${1:int}>${2:st};$0"
+			"set<${1:int}>${2:st};$0"
 		],
 		"description": "set"
 	},
