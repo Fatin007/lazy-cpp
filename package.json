@@ -3,14 +3,14 @@
   "displayName": "Lazy CPP",
   "publisher": "Fatin007",
   "description": "C++ code snippets for lazy people...",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "icon": "./images/logo.jpeg",
   "repository": {
     "type": "git",
     "url": "https://github.com/Fatin007/lazy-cpp"
   },
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.57.0"
   },
   "categories": [
     "Snippets"
